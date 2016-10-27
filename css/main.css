@@ -52,6 +52,11 @@ figure {
   float: right;
   width: 300px;
 }
+
+figcaption {
+  font-size: .875rem;
+}
+
 .colon {
   display: none;
 }
@@ -62,7 +67,6 @@ main {
 
 p {
   margin: 0;
-
   text-indent: 1.3em;
 }
 
@@ -74,11 +78,29 @@ main > p:first-child::first-line {
   font-style: italic;
 }
 
+p:first-child::first-letter {
+  float: left;
+  width: 300px;
+  font-size: 5rem;
+  font-style: normal;
+  color: #fff;
+  padding: .4em .2em;
+  background-color: #666;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
+  font-size: 1.5rem;
+}
+
 footer {
   padding: 1.5rem 0;
-
   background-color: #333;
-
   color: #f2f2f2;
 }
 
