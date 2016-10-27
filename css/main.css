@@ -84,7 +84,7 @@ p:first-child::first-letter {
   font-size: 5rem;
   font-style: normal;
   color: #fff;
-  padding: .4em .2em;
+  padding: 6px;
   background-color: #666;
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
