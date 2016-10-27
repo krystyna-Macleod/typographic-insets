@@ -51,10 +51,14 @@ h1 {
 figure {
   float: right;
   width: 300px;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
+  padding: 0 6px;
 }
 
 figcaption {
   font-size: .875rem;
+  padding: .4em .2em;
 }
 
 .colon {
@@ -96,6 +100,7 @@ blockquote {
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   font-size: 1.5rem;
+  padding: .4em .2em;
 }
 
 footer {
