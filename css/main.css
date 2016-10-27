@@ -48,8 +48,10 @@ h1 {
   font-style: italic;
 }
 
-
-
+figure {
+  float: right;;
+  width: 300px;
+}
 .colon {
   display: none;
 }
