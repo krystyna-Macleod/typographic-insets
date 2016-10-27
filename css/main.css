@@ -54,6 +54,8 @@ figure {
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   padding: 0 6px;
+  margin-right: -200px;
+  margin-left: .1em;
 }
 
 figcaption {
@@ -92,6 +94,8 @@ p:first-child::first-letter {
   background-color: #666;
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
+  margin-left: -.5em;
+  margin-right: .1em;
 }
 
 blockquote {
@@ -101,6 +105,8 @@ blockquote {
   border-bottom: 3px #333 solid;
   font-size: 1.5rem;
   padding: .4em .2em;
+  margin-left: -200px;
+  margin-right: .1em;
 }
 
 footer {
