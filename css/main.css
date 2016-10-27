@@ -84,7 +84,7 @@ main > p:first-child::first-line {
   font-style: italic;
 }
 
-p:first-child::first-letter {
+main + p:first-child::first-letter {
   float: left;
   width: 300px;
   font-size: 5rem;
@@ -105,8 +105,9 @@ blockquote {
   border-bottom: 3px #333 solid;
   font-size: 1.5rem;
   padding: .4em .2em;
-  margin-left: -200px;
+  margin-left: -180px;
   margin-right: .1em;
+  text-align: right;
 }
 
 footer {
