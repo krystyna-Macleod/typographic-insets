@@ -54,7 +54,7 @@ figure {
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   padding: 0 6px;
-  margin-right: -200px;
+  margin-right: -180px;
   margin-left: .1em;
   margin-top: .1em;
   margin-bottom: .1em;
@@ -86,13 +86,16 @@ main > p:first-child::first-line {
   font-style: italic;
 }
 
-main + p:first-child::first-letter {
+main > p:first-child::first-letter {
   float: left;
   width: 300px;
   font-size: 5rem;
   font-style: normal;
   color: #fff;
-  padding: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   background-color: #666;
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
